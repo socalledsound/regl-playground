@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo --live --open test-sketch/index.js"
+    "start": "budo --live --open bunny/index.js"
   },
   "browserify": {
-    "transform": ["glslify"]
+    "transform": [
+      "glslify"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,10 @@
     "glslify": "^7.1.1"
   },
   "dependencies": {
+    "angle-normals": "^1.0.0",
+    "bunny": "^1.0.1",
+    "gl-mat4": "^1.2.0",
+    "perspective-camera": "^2.0.1",
     "regl": "^2.0.1"
   }
 }
